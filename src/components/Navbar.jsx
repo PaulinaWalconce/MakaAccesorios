@@ -6,8 +6,17 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <Link to="/" className="logo">MAKA</Link>
-      <Link to="/cart">Carrito ({cart.length})</Link>
+      <Link 
+        to="/" 
+        className="logo"
+        style={{ fontFamily: "Bile, sans-serif", fontSize: "32px", letterSpacing: "2px" }}
+      >
+        MAKA
+      </Link>
+
+      <Link to="/cart" style={{ fontFamily: "Montserrat, sans-serif" }}>
+        Carrito ({cart.length})
+      </Link>
     </nav>
   );
 }
