@@ -77,3 +77,8 @@ button:hover {
   padding: 10px;
   width: 100%;
 }
+.product-image{
+  width: 2048px;
+  height: auto;
+}
+
