@@ -6,8 +6,15 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <Link to="/" className="logo">MAKA</Link>
-      <Link to="/cart">Carrito ({cart.length})</Link>
+      <Link to="/" className="logo">
+        MAKA
+      </Link>
+
+      <div className="nav-links">
+        <Link to="/cart" className="cart-link">
+          🛒 Carrito ({cart.length})
+        </Link>
+      </div>
     </nav>
   );
 }

@@ -4,15 +4,15 @@ export const products = [
     name: "Collar Perla",
     price: 450,
     category: "Collares",
-    image: "https://images.unsplash.com/photo-1617038220319-276d3cfab638",
+    image: "/images/collar-perla.jpg",
     description: "Collar elegante con perla natural."
   },
   {
     id: 2,
-    name: "Anillo Dorado",
+    name: "Aretes Dorados",
     price: 380,
-    category: "Anillos",
-    image: "https://images.unsplash.com/photo-1588449668365-d15e397f6787",
-    description: "Anillo minimalista acabado dorado."
+    category: "Aretes",
+    image: "/images/aretes-dorados.jpg",
+    description: "Aretes minimalistas con acabado dorado."
   }
 ];
